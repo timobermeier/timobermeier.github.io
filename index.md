@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+I'm a Post-Doc Fellow at the IFS. I completed the Ph.D. in Economics at the University of Mannheim in 2019. My research interests are in Public Economics, Macroeconomics and Labor Economics - in particular, topics related to family behavior, unemployment and inequality.
+
+My e-mail address is tim.obermeier@ifs.org.uk.
 
 You can use the [editor on GitHub](https://github.com/timobermeier/timobermeier.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
