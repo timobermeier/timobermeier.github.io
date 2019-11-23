@@ -1,6 +1,33 @@
 I'm a Post-Doc Fellow at the IFS. I completed the Ph.D. in Economics at the University of Mannheim in 2019. My research interests are in Public Economics, Macroeconomics and Labor Economics - in particular, topics related to family behavior, unemployment and inequality.
 
-My e-mail address is tim.obermeier@ifs.org.uk.
+Click here for my CV.
+
+My e-mail address is **tim.obermeier@ifs.org.uk**.
+
+### Research Papers
+
+**The Marriage Market, Inequality and the Progressivity of the Income Tax**
+[Draft]
+
+**Employer Screening and Optimal Unemployment Insurance** (with Mario Meier)
+[Draft]
+
+### Work in Progress
+
+**Fertility and Women's Occupational Choice: Germany, 1975 - 2007** (with Hans-Martin von Gaudecker and Holger Stichnoth)
+
+**What accounts for Changes in Marriage and Cohabitation?**
+
+**The Effects of Job Displacement on Marriage Market Outcomes** (with Hanno Foerster and Alexander Paul)
+
+
+
+
+
+
+
+
+
 
 You can use the [editor on GitHub](https://github.com/timobermeier/timobermeier.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
