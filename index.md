@@ -3,6 +3,8 @@ Click [here](https://drive.google.com/open?id=1gXTh2PX1OS1Zb7RrJopb9-L04hUD6mT3)
 
 My e-mail address is **tim.obermeier@ifs.org.uk**.
 
+[Research](./research.html).
+
 ## Research Papers
 
 **The Marriage Market, Inequality and the Progressivity of the Income Tax**
