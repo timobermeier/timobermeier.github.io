@@ -1,5 +1,5 @@
 title: Tim Obermeier
 logo: /photo.jpg
-theme: jekyll-theme-minimal
+remote_theme: thelehhman/plainwhite-jekyll
 github:
   is_project_page: false
