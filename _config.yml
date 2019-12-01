@@ -3,3 +3,5 @@ logo: /photo.jpg
 theme: jekyll-theme-minimal
 github:
   is_project_page: false
+plugins:
+  jekyll-include-cache
