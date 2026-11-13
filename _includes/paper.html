@@ -6,9 +6,9 @@
   {% endif %}
   {% if p.venue %}<p class="paper-venue">{{ p.venue }}</p>{% endif %}
   {% if p.status %}<p class="paper-status">{{ p.status }}</p>{% endif %}
-  <div class="paper-actions">
-    {% for l in p.links %}<a class="btn" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
-    {% if p.abstract %}<button class="btn btn-toggle" type="button" aria-expanded="true" aria-controls="abs-{{ include.id }}" hidden>Abstract <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button>{% endif %}
-  </div>
+  <p class="paper-actions">
+    {% if p.abstract %}<button class="btn-toggle" type="button" aria-expanded="true" aria-controls="abs-{{ include.id }}" hidden>Abstract<svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button>{% endif %}
+    {% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+  </p>
   {% if p.abstract %}<div class="abstract" id="abs-{{ include.id }}"><p>{{ p.abstract | strip }}</p></div>{% endif %}
 </article>
