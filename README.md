@@ -7,8 +7,8 @@ Personal academic website, built with Jekyll and hosted on GitHub Pages.
 | To change…                         | Edit                                   |
 |------------------------------------|----------------------------------------|
 | Papers, links, abstracts           | `_data/papers.yml`                     |
-| Name, position, email, fields      | `_config.yml` (under `author:`)        |
-| About text, student meetings       | `index.html`                           |
+| Name, institution, email, fields   | `_config.yml` (under `author:`)        |
+| About text, contact, office hours  | `index.html`                           |
 | CV                                 | replace `cv.pdf`                       |
 | Photo                              | replace `photo.jpg`                    |
 | Colours, fonts, spacing            | `assets/css/site.css`                  |

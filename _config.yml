@@ -5,22 +5,14 @@ url: "https://timobermeier.github.io"
 baseurl: ""
 lang: en
 
-# Shown in the sidebar on every page
+# Shown in the sidebar
 author:
   name: Tim Obermeier
-  position: Lecturer in Economics
   institution: University of Leicester
   institution_url: https://le.ac.uk/school-of-business
   email: tim.obermeier@leicester.ac.uk
   photo: /photo.jpg
   cv: /cv.pdf
-  affiliations:
-    - role: Research Associate
-      name: Institute for Fiscal Studies
-      url: https://ifs.org.uk
-    - role: Associate
-      name: Centre for Economic Performance
-      url: https://cep.lse.ac.uk
   fields:
     - Macroeconomics
     - Labour Economics
@@ -28,15 +20,6 @@ author:
 
 # Used for link previews (social media, Slack, etc.)
 image: /photo.jpg
-
-# Top navigation
-nav:
-  - title: Home
-    url: /
-  - title: Research
-    url: /research.html
-  - title: CV
-    url: /cv.pdf
 
 defaults:
   - scope:
@@ -47,6 +30,7 @@ defaults:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile

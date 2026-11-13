@@ -12,33 +12,15 @@
 <body>
   <a class="skip-link" href="#content">Skip to content</a>
 
-  <header class="topbar">
-    <div class="wrap topbar-inner">
-      <a class="brand" href="{{ '/' | relative_url }}">{{ site.author.name }}</a>
-      <nav aria-label="Main">
-        <ul class="nav">
-          {% for item in site.nav %}
-          <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
-          {% endfor %}
-        </ul>
-      </nav>
-    </div>
-  </header>
 
   <div class="wrap layout">
     <aside class="sidebar">
-      <img class="portrait" src="{{ site.author.photo | relative_url }}" alt="Portrait of {{ site.author.name }}" width="200" height="231">
+      <img class="portrait" src="{{ site.author.photo | relative_url }}" alt="Portrait of {{ site.author.name }}" width="200" height="200">
       <div class="identity">
         <p class="name">{{ site.author.name }}</p>
-        <p class="role">{{ site.author.position }}</p>
         <p class="role"><a href="{{ site.author.institution_url }}">{{ site.author.institution }}</a></p>
       </div>
 
-      <ul class="affiliations">
-        {% for a in site.author.affiliations %}
-        <li>{{ a.role }}, <a href="{{ a.url }}">{{ a.name }}</a></li>
-        {% endfor %}
-      </ul>
 
       <ul class="contact" aria-label="Contact">
         <li>
