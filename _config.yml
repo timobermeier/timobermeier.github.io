@@ -3,7 +3,7 @@ title: Tim Obermeier
 description: Lecturer in Economics at the University of Leicester. Research in macroeconomics, labour markets, family decision-making and inequality.
 url: "https://timobermeier.github.io"
 baseurl: ""
-lang: en
+lang: en-GB
 
 # Shown in the sidebar
 author:
@@ -20,6 +20,8 @@ author:
 
 # Used for link previews (social media, Slack, etc.)
 image: /photo.jpg
+twitter:
+  card: summary
 
 defaults:
   - scope:

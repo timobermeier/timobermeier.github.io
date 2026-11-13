@@ -7,6 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
@@ -17,10 +18,9 @@
     <aside class="sidebar">
       <img class="portrait" src="{{ site.author.photo | relative_url }}" alt="Portrait of {{ site.author.name }}" width="200" height="200">
       <div class="identity">
-        <p class="name">{{ site.author.name }}</p>
+        <h1 class="name">{{ site.author.name }}</h1>
         <p class="role"><a href="{{ site.author.institution_url }}">{{ site.author.institution }}</a></p>
       </div>
-
 
       <ul class="contact" aria-label="Contact">
         <li>

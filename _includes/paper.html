@@ -1,6 +1,6 @@
 {% assign p = include.paper %}
 <article class="paper">
-  <h4 class="paper-title">{{ p.title }}</h4>
+  <h4 class="paper-title">{% if p.links %}<a href="{{ p.links[0].url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h4>
   {% if p.coauthors %}
   <p class="paper-meta">with {% for c in p.coauthors %}{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% if forloop.rindex == 2 %} and {% elsif forloop.last == false %}, {% endif %}{% endfor %}</p>
   {% endif %}
