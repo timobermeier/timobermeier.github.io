@@ -1,0 +1,14 @@
+{% assign p = include.paper %}
+<article class="paper">
+  <h4 class="paper-title">{% if p.links %}<a href="{{ p.links[0].url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h4>
+  {% if p.coauthors %}
+  <p class="paper-meta">with {% for c in p.coauthors %}{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% if forloop.rindex == 2 %} and {% elsif forloop.last == false %}, {% endif %}{% endfor %}</p>
+  {% endif %}
+  {% if p.venue %}<p class="paper-venue">{{ p.venue }}</p>{% endif %}
+  {% if p.status %}<p class="paper-status">{{ p.status }}</p>{% endif %}
+  <div class="paper-actions">
+    {% for l in p.links %}<a class="btn" href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
+    {% if p.abstract %}<button class="btn btn-toggle" type="button" aria-expanded="true" aria-controls="abs-{{ include.id }}" hidden>Abstract <svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button>{% endif %}
+  </div>
+  {% if p.abstract %}<div class="abstract" id="abs-{{ include.id }}"><p>{{ p.abstract | strip }}</p></div>{% endif %}
+</article>
