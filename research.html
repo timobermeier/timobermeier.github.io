@@ -1,0 +1,21 @@
+---
+title: Research
+permalink: /research.html
+---
+<h1 class="page-title">Research</h1>
+
+<section class="section">
+  <h2 class="section-title">Publications</h2>
+  {% for paper in site.data.papers.publications %}
+    {% capture pid %}pub-{{ forloop.index }}{% endcapture %}
+    {% include paper.html paper=paper id=pid %}
+  {% endfor %}
+</section>
+
+<section class="section">
+  <h2 class="section-title">Working papers</h2>
+  {% for paper in site.data.papers.working_papers %}
+    {% capture pid %}wp-{{ forloop.index }}{% endcapture %}
+    {% include paper.html paper=paper id=pid %}
+  {% endfor %}
+</section>

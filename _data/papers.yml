@@ -1,0 +1,241 @@
+# Research papers shown on research.html.
+#
+# To add a paper, copy an entry and edit it. Fields:
+#   title      (required)
+#   coauthors  list of {name, url}; url is optional
+#   venue      journal / publication details
+#   status     e.g. "R&R at American Economic Journal: Macroeconomics"
+#   links      list of {label, url}, shown as buttons
+#   abstract   optional; shown when the "Abstract" button is clicked
+#
+# Abstracts below were taken from the public working-paper / journal pages.
+# Entries marked "CHECK" are pieced together from partial sources or are an
+# older version of the paper - please replace them with the current abstract.
+
+publications:
+  - title: "Welfare Inequality with Collective Households: A Tale of Consumption, Time Use and Preference Heterogeneity"
+    venue: "Journal of the European Economic Association, conditionally accepted"
+    links:
+      - label: Paper
+        url: https://drive.google.com/file/d/1p9BoHU9xlSSK440ZVzGA79VaowlfQf4V/view?usp=sharing
+      - label: LSE Blog
+        url: https://blogs.lse.ac.uk/politicsandpolicy/why-household-income-doesnt-tell-the-full-story-on-individual-wellbeing/
+    # CHECK: abstract of the 2023 CEP Discussion Paper version
+    abstract: >-
+      How accurately does household income reflect the well-being of the individuals living
+      within the household? Looking at household income does not take unequal consumption
+      sharing within families, the value of time use (leisure and housework) and preference
+      heterogeneity into account. I build a model of family decision-making and the marriage
+      market which jointly captures these aspects and estimate the model based on British time
+      use data. I use the estimated model to study poverty and inequality based on the
+      individual-level Money-Metric Welfare Index (MMWI). The main result is that only 59% of
+      individuals who are poor in terms of the MMWI ('welfare-poor') are also income-poor,
+      suggesting that the conventional focus on income misses a substantial fraction of the
+      welfare-poor. I find that accounting for unobserved preference heterogeneity is an
+      important factor in assessing individual welfare. From an aggregate perspective,
+      inequality within families accounts for 18% of overall welfare inequality, and
+      heterogeneity in economies of scale across households account for 23% of welfare
+      inequality. Finally, to illustrate the policy relevance of individual welfare measures,
+      I study how minimum wage increases affect welfare-poverty in this framework.
+
+  - title: "An Engine of (Pay) Growth? Productivity and Wages in the UK Auto Industry"
+    coauthors:
+      - name: Agnes Norris Keiller
+        url: https://a-norriskeiller.github.io/
+      - name: Andreas Teichgraeber
+        url: https://ateichgr.github.io/
+      - name: John Van Reenen
+        url: https://www.johnvanreenen.com/
+    venue: "Labour Economics, 103, 2026, 102970"
+    links:
+      - label: Paper
+        url: https://www.sciencedirect.com/science/article/pii/S0927537126001223
+      - label: LSE Blog
+        url: https://blogs.lse.ac.uk/businessreview/2024/11/05/the-productivity-boom-in-the-british-car-industry-benefited-workers-with-a-caveat/
+      - label: CentrePiece
+        url: https://cep.lse.ac.uk/pubs/download/cp699.pdf
+    abstract: >-
+      To what extent do identical workers in an industry benefit from productivity growth in
+      the same industry? We study this question in the context of the UK auto industry which
+      experienced a thirteen-fold increase in output per worker between 1980 and 2018. Over
+      the same period, auto workers saw substantially stronger hourly wage growth than workers
+      in other manufacturing industries. Controlling for unobserved worker heterogeneity, the
+      auto wage premium over other manufacturing workers doubled from 8% in the 1980s to 17%
+      in the 2010s, while the manufacturing premium over the rest of the economy remained
+      roughly stable at 5%. Interpreted through the lens of a rent sharing model, we estimate
+      that 63% of the increase in the raw firm-level auto wage premium can be accounted for by
+      strong productivity growth. In contrast, differential bargaining power between auto
+      workers cannot account for these changes.
+
+  - title: "Employer Screening and Optimal Unemployment Insurance"
+    coauthors:
+      - name: Mario Meier
+    venue: "The Economic Journal, 135(667), 2025, 671–711"
+    links:
+      - label: Paper
+        url: https://academic.oup.com/ej/advance-article/doi/10.1093/ej/ueae095/7876487?guestAccessKey=6dea5575-fd33-41d6-9f1e-d784aab3d6a9
+    abstract: >-
+      Field experiments show that employers are less likely to consider long-term unemployed
+      job seekers for interviews. We study the implications for optimal unemployment insurance
+      (UI). Based on a structural model of job search and recruitment, estimated with German
+      data, we analyse the optimal two-tier unemployment system. We find that screening makes
+      the optimal initial benefit level four percentage points higher and the potential
+      benefit duration seven months longer. Using an extended Baily–Chetty formula, we study
+      the mechanisms through which screening affects the consumption smoothing gain and moral
+      hazard cost of providing unemployment insurance and highlight the role of the
+      externality from endogenous firm behaviour.
+
+  - title: "Firms and Inequality"
+    coauthors:
+      - name: Jan De Loecker
+        url: https://sites.google.com/site/deloeckerjan/home
+      - name: John Van Reenen
+        url: https://www.johnvanreenen.com/
+    venue: "Oxford Open Economics, 3(S1), 2024, i962–i982"
+    links:
+      - label: Paper
+        url: https://academic.oup.com/ooec/article/3/Supplement_1/i962/7708115
+      - label: IFS Deaton Review
+        url: https://ifs.org.uk/inequality/about-the-review/
+    # CHECK: abstract of the 2022 CEP Discussion Paper version (the journal version is shorter)
+    abstract: >-
+      In the last few decades, dramatic changes have been documented in the US business
+      landscape. These include rising productivity and pay dispersion between firms, higher
+      aggregate markups (of price over variable costs), growing dominance of big companies
+      ("superstar firms"), a fall in the labour share of GDP and a decline in business
+      dynamism. We review the existing literature and present a new analysis using
+      comprehensive firm level panel data, to show that qualitatively, these trends are also
+      apparent in the UK. This similarity suggests that common trends in technology (or
+      globalisation) have been the driving force behind these changes, rather than
+      country-specific institutions (such as weaker US antitrust enforcement). Since (at
+      least) the mid-1990s, there has been a large increase in UK firm-level inequality
+      (especially in the upper tails) of productivity, wages, markups, and labour shares. Of
+      course, inequality between firms is much less of a concern than inequality between
+      people. However, it can signal economic problems, such as a slowdown in the diffusion of
+      ideas between leading and laggard firms and can foster higher wage inequality. Indeed,
+      there has been little aggregate UK productivity growth since the Global Financial
+      Crisis, and this has been a serious drag on median and mean real wages. We suggest a
+      simple theoretical framework for understanding some of these trends and quantitatively
+      analyse why, despite increasing markups, the UK labour share has not fallen as sharply
+      as that in the US. Finally, we suggest some policy options in response to these
+      worrying trends, include modernising competition rules to deal with the growth of
+      superstar firms and strengthening worker bargaining power.
+
+working_papers:
+  - title: "Job Loss, Remarriage and Marital Sorting"
+    coauthors:
+      - name: Hanno Foerster
+        url: http://hannofoerster.com/home
+      - name: Bastian Schulz
+        url: https://sites.google.com/site/schulzbastian/
+    status: "Resubmitted to American Economic Journal: Macroeconomics"
+    links:
+      - label: Paper
+        url: https://drive.google.com/file/d/1ogv2uacCuCPRwD-NrtmFONJ0CUpDmOB_/view
+    abstract: >-
+      We investigate how job displacement affects whom men marry and study implications for
+      marriage market matching theory. Leveraging quasi-experimental variation from Danish
+      establishment closures, we show that job displacement leads men to break up if matched
+      with low-earning women and to re-match with higher earning women. We use a general
+      search and matching model of the marriage market to derive several implications of our
+      empirical findings: (i) husbands' and wives' incomes are substitutes rather than
+      complements in the marriage market; (ii) our findings are hard to reconcile with
+      one-dimensional matching, but are consistent with multidimensional matching; (iii) a
+      substantial part of the cross-sectional correlation between spouses' incomes arises
+      spuriously from sorting on unobserved characteristics. We highlight the relevance of our
+      results by simulating how the effect of rising individual-level inequality on
+      between-household inequality is shaped by marital sorting.
+
+  - title: "Marriage, Intra-Household Inequality and Wage Risk"
+    coauthors:
+      - name: Piotr Denderski
+        url: https://sites.google.com/site/piotrdenderski/
+    status: "R&R at American Economic Journal: Macroeconomics"
+    links:
+      - label: Paper
+        url: https://drive.google.com/file/d/1bG0pZpeBlhAHHgBrZKsYOV5cdyjBd_X3/view?usp=share_link
+    # CHECK: the middle two sentences are reconstructed - please paste the exact abstract
+    abstract: >-
+      How well are workers insured against idiosyncratic wage risk? We revisit this question
+      using a two-earner life-cycle model with endogenous intra-household allocations and
+      marital status dynamics. In a model calibrated to the US, intra-household consumption
+      inequality explains nearly one-fifth of overall inequality. The welfare cost of wage
+      risk is 50% higher than in a unitary household model. A proportional tax reform induces
+      a sizable welfare loss, which is much larger for women than for men due to stronger
+      labor supply responses. Progressive taxation thus provides disproportionately greater
+      insurance for women once intra-household inequality and marriage dynamics are
+      considered.
+
+  - title: "Cohabitation, Child Development, and College Costs"
+    coauthors:
+      - name: Efi Adamopoulou
+        url: https://sites.google.com/site/efiadamopoulou/
+      - name: Anne Hannusch
+        url: https://www.anne-hannusch.com/research
+      - name: Karen Kopecky
+        url: http://karenkopecky.net/
+    status: "R&R at American Economic Journal: Macroeconomics"
+    links:
+      - label: Paper
+        url: https://www.dropbox.com/scl/fo/fc4oeat381iqy57mhphzs/h?dl=0&e=1&preview=Cohabitation_and_Child_Development.pdf&rlkey=tmbpp6nx6rmgcs4u258t99d8g
+    abstract: >-
+      US college-educated couples with children marry at higher rates than those without a
+      college degree. We argue that marriage, which entails lower separation risk and more
+      equitable asset division if separation occurs, provides insurance to the lower-earning
+      spouse, facilitating child investment. Investing in children is more valuable for
+      college-educated couples, who are more likely to send their children to college. Using
+      an OLG model of marriage, cohabitation, wealth accumulation, and educational investments
+      where college is costly and completion is risky, we find that high college costs reduce
+      incentives to marry among couples without a college degree. These differences in union
+      choice by education heighten differences in children's educational attainment and
+      reduce intergenerational mobility.
+
+  - title: "When Trade Drives Markup Divergence: An Application to Auto Markets"
+    coauthors:
+      - name: Agnes Norris Keiller
+        url: https://a-norriskeiller.github.io/
+      - name: Andreas Teichgraeber
+        url: https://ateichgr.github.io/
+      - name: John Van Reenen
+        url: https://www.johnvanreenen.com/
+    links:
+      - label: Paper
+        url: https://poid.lse.ac.uk/textonly/publications/downloads/poidwp099.pdf
+    abstract: >-
+      When firms sell in multiple markets, estimates of markups from the demand-side will
+      generally diverge from estimates based on the supply-side (e.g. via production
+      functions). The empirical examination of the importance of this fact has been hampered
+      by the absence of market-specific cost data. To overcome this, we show production
+      markups can be expressed as the revenue-weighted average of demand-based markups across
+      markets (and products). This highlights that a divergence in demand-based and
+      production-based markups is due to the revenue shares and markups across foreign and
+      domestic markets, factors that can be assessed with readily available trade data. Using
+      data from auto firms producing in the UK, we show production-based markups increased
+      between 1998 and 2018 whereas demand-based markups decreased. These trends can be
+      reconciled by an increase in the markup that UK-based producers gained on their
+      exports, which we corroborate using administrative trade data. We find that increases
+      in production-based markups have been driven by exports, particularly to China where
+      foreign brands command high markups.
+
+  - title: "Household Taxation, Nonlinear Occupations and Gender Gaps"
+    coauthors:
+      - name: Piotr Denderski
+        url: https://sites.google.com/site/piotrdenderski/
+    links:
+      - label: Paper
+        url: https://drive.google.com/file/d/1fo3lje2xhl3wFRaobru0aiwebY3Ef64P/view?usp=share_link
+    # CHECK: one sentence (on the labor-supply channel) is missing - please paste the exact abstract
+    abstract: >-
+      An enduring source of gender inequality is that some high-paying ("nonlinear")
+      occupations penalize balancing work and household time commitments, as emphasized by
+      Goldin (2014). We ask how household taxation interacts with these occupational
+      differences to shape gender gaps in hours, wages, and occupational choice, and whether
+      these differences materially affect the impact of tax reforms. We address these
+      questions in a structural Roy model of household labor supply with occupation-specific
+      earnings-hours nonlinearities and progressive taxation, calibrated to US data. We find
+      that a balanced-budget switch to separately filed progressive taxes significantly
+      reduces the gender gaps in hours and occupational choice, while the wage gap declines
+      more modestly. These improvements arise because the reform lowers marginal tax rates
+      for secondary earners and raises them for primary earners. By contrast, proportional
+      taxation yields much smaller reductions in gender gaps. Occupational switching
+      contributes little because those who do switch are negatively selected.

@@ -1,6 +1,54 @@
+# Site settings
 title: Tim Obermeier
-logo: /photo.jpg
-theme: jekyll-theme-slate
-theme: jekyll-theme-minimal
-github:
-  is_project_page: false
+description: Lecturer in Economics at the University of Leicester. Research in macroeconomics, labour markets, family decision-making and inequality.
+url: "https://timobermeier.github.io"
+baseurl: ""
+lang: en
+
+# Shown in the sidebar on every page
+author:
+  name: Tim Obermeier
+  position: Lecturer in Economics
+  institution: University of Leicester
+  institution_url: https://le.ac.uk/school-of-business
+  email: tim.obermeier@leicester.ac.uk
+  photo: /photo.jpg
+  cv: /cv.pdf
+  affiliations:
+    - role: Research Associate
+      name: Institute for Fiscal Studies
+      url: https://ifs.org.uk
+    - role: Associate
+      name: Centre for Economic Performance
+      url: https://cep.lse.ac.uk
+  fields:
+    - Macroeconomics
+    - Labour Economics
+    - Family Economics
+
+# Used for link previews (social media, Slack, etc.)
+image: /photo.jpg
+
+# Top navigation
+nav:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research.html
+  - title: CV
+    url: /cv.pdf
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
