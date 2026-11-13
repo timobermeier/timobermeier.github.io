@@ -1,11 +1,9 @@
 {% assign p = include.paper %}
 <article class="paper">
   <h3 class="paper-title">{% if p.links %}<a href="{{ p.links[0].url }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</h3>
-  {% if p.coauthors %}
-  <p class="paper-meta">with {% for c in p.coauthors %}{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% if forloop.rindex == 2 %} and {% elsif forloop.last == false %}, {% endif %}{% endfor %}</p>
+  {% if p.coauthors or p.venue or p.status %}
+  <p class="paper-meta">{% if p.coauthors %}<span>with {% for c in p.coauthors %}{% if c.url %}<a href="{{ c.url }}">{{ c.name }}</a>{% else %}{{ c.name }}{% endif %}{% if forloop.rindex == 2 %} and {% elsif forloop.last == false %}, {% endif %}{% endfor %}</span>{% endif %}{% if p.venue %}<span class="paper-venue">{{ p.venue }}</span>{% endif %}{% if p.status %}<span class="paper-status">{{ p.status }}</span>{% endif %}</p>
   {% endif %}
-  {% if p.venue %}<p class="paper-venue">{{ p.venue }}</p>{% endif %}
-  {% if p.status %}<p class="paper-status">{{ p.status }}</p>{% endif %}
   <p class="paper-actions">
     {% if p.abstract %}<button class="btn-toggle" type="button" aria-expanded="true" aria-controls="abs-{{ include.id }}" hidden>Abstract<svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M6 9l6 6 6-6"/></svg></button>{% endif %}
     {% for l in p.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% endfor %}
