@@ -8,9 +8,8 @@
 #   links      list of {label, url}, shown as buttons
 #   abstract   optional; shown when the "Abstract" button is clicked
 #
-# Abstracts below were taken from the public working-paper / journal pages.
-# Entries marked "CHECK" are pieced together from partial sources or are an
-# older version of the paper - please replace them with the current abstract.
+# Abstracts match the latest public version of each paper (journal page,
+# or the most recent working-paper series). Update them when a paper changes.
 
 publications:
   - title: "Welfare Inequality with Collective Households: A Tale of Consumption, Time Use and Preference Heterogeneity"
@@ -20,23 +19,17 @@ publications:
         url: https://drive.google.com/file/d/1p9BoHU9xlSSK440ZVzGA79VaowlfQf4V/view?usp=sharing
       - label: LSE Blog
         url: https://blogs.lse.ac.uk/politicsandpolicy/why-household-income-doesnt-tell-the-full-story-on-individual-wellbeing/
-    # CHECK: abstract of the 2023 CEP Discussion Paper version
+    # Abstract of the Oct 2023 working paper with this title; the JEEA version may differ.
     abstract: >-
-      How accurately does household income reflect the well-being of the individuals living
-      within the household? Looking at household income does not take unequal consumption
-      sharing within families, the value of time use (leisure and housework) and preference
-      heterogeneity into account. I build a model of family decision-making and the marriage
-      market which jointly captures these aspects and estimate the model based on British time
-      use data. I use the estimated model to study poverty and inequality based on the
-      individual-level Money-Metric Welfare Index (MMWI). The main result is that only 59% of
-      individuals who are poor in terms of the MMWI ('welfare-poor') are also income-poor,
-      suggesting that the conventional focus on income misses a substantial fraction of the
-      welfare-poor. I find that accounting for unobserved preference heterogeneity is an
-      important factor in assessing individual welfare. From an aggregate perspective,
-      inequality within families accounts for 18% of overall welfare inequality, and
-      heterogeneity in economies of scale across households account for 23% of welfare
-      inequality. Finally, to illustrate the policy relevance of individual welfare measures,
-      I study how minimum wage increases affect welfare-poverty in this framework.
+      A common approach to analysing inequality focuses on household income and assumes the
+      absence of intra-household inequality and homogenous equivalence scales. To study the
+      role of these assumptions, I build a model of household decision-making and the marriage
+      market. I estimate the model using British data and use it to measure individual
+      well-being in terms of the Money-Metric Welfare Index (MMWI, Chiappori and Meghir
+      (2015)). Comparing inequality in individual-level welfare and household-level income, I
+      find that welfare inequality is 11% lower than income inequality. Intra-household
+      inequality accounts for 21% of welfare inequality and heterogeneity in economies of
+      scale for 15%.
 
   - title: "An Engine of (Pay) Growth? Productivity and Wages in the UK Auto Industry"
     coauthors:
@@ -76,10 +69,10 @@ publications:
         url: https://academic.oup.com/ej/advance-article/doi/10.1093/ej/ueae095/7876487?guestAccessKey=6dea5575-fd33-41d6-9f1e-d784aab3d6a9
     abstract: >-
       Field experiments show that employers are less likely to consider long-term unemployed
-      job seekers for interviews. We study the implications for optimal unemployment insurance
-      (UI). Based on a structural model of job search and recruitment, estimated with German
-      data, we analyse the optimal two-tier unemployment system. We find that screening makes
-      the optimal initial benefit level four percentage points higher and the potential
+      job seekers for interviews. We study the implications for optimal unemployment
+      insurance. Based on a structural model of job search and recruitment, estimated with
+      German data, we analyse the optimal two-tier unemployment system. We find that screening
+      makes the optimal initial benefit level 4 percentage points higher and the potential
       benefit duration seven months longer. Using an extended Baily–Chetty formula, we study
       the mechanisms through which screening affects the consumption smoothing gain and moral
       hazard cost of providing unemployment insurance and highlight the role of the
@@ -97,28 +90,15 @@ publications:
         url: https://academic.oup.com/ooec/article/3/Supplement_1/i962/7708115
       - label: IFS Deaton Review
         url: https://ifs.org.uk/inequality/about-the-review/
-    # CHECK: abstract of the 2022 CEP Discussion Paper version (the journal version is shorter)
     abstract: >-
-      In the last few decades, dramatic changes have been documented in the US business
-      landscape. These include rising productivity and pay dispersion between firms, higher
-      aggregate markups (of price over variable costs), growing dominance of big companies
-      ("superstar firms"), a fall in the labour share of GDP and a decline in business
-      dynamism. We review the existing literature and present a new analysis using
-      comprehensive firm level panel data, to show that qualitatively, these trends are also
-      apparent in the UK. This similarity suggests that common trends in technology (or
-      globalisation) have been the driving force behind these changes, rather than
-      country-specific institutions (such as weaker US antitrust enforcement). Since (at
-      least) the mid-1990s, there has been a large increase in UK firm-level inequality
-      (especially in the upper tails) of productivity, wages, markups, and labour shares. Of
-      course, inequality between firms is much less of a concern than inequality between
-      people. However, it can signal economic problems, such as a slowdown in the diffusion of
-      ideas between leading and laggard firms and can foster higher wage inequality. Indeed,
-      there has been little aggregate UK productivity growth since the Global Financial
-      Crisis, and this has been a serious drag on median and mean real wages. We suggest a
+      We review the existing literature on falling business dynamism and present a new
+      analysis using comprehensive UK firm-level panel data. Since the mid-1990s, there has
+      been a large increase in UK firm-level inequality (especially in the upper tails) of
+      productivity, wages, markups and labour shares, similarly to the USA. We suggest a
       simple theoretical framework for understanding some of these trends and quantitatively
       analyse why, despite increasing markups, the UK labour share has not fallen as sharply
-      as that in the US. Finally, we suggest some policy options in response to these
-      worrying trends, including modernising competition rules to deal with the growth of
+      as that in the USA. Finally, we suggest some policy options in response to these
+      worrying trends, including modernizing competition rules to deal with the growth of
       superstar firms and strengthening worker bargaining power.
 
 working_papers:
@@ -154,17 +134,16 @@ working_papers:
     links:
       - label: Paper
         url: https://drive.google.com/file/d/1bG0pZpeBlhAHHgBrZKsYOV5cdyjBd_X3/view?usp=share_link
-    # CHECK: the middle two sentences are reconstructed - please paste the exact abstract
     abstract: >-
       How well are workers insured against idiosyncratic wage risk? We revisit this question
       using a two-earner life-cycle model with endogenous intra-household allocations and
       marital status dynamics. In a model calibrated to the US, intra-household consumption
       inequality explains nearly one-fifth of overall inequality. The welfare cost of wage
-      risk is 50% higher than in a unitary household model. A proportional tax reform induces
-      a sizable welfare loss, which is much larger for women than for men due to stronger
-      labor supply responses. Progressive taxation thus provides disproportionately greater
-      insurance for women once intra-household inequality and marriage dynamics are
-      considered.
+      risk is 50% higher than in the unitary household benchmark. A proportional tax reform
+      induces a sizable welfare loss, with women's welfare falling over four times as much as
+      men's due to stronger labor supply responses. Progressive taxation thus provides
+      disproportionately greater insurance for women once intra-household inequality and
+      marriage dynamics are considered.
 
   - title: "Cohabitation, Child Development, and College Costs"
     coauthors:
@@ -187,8 +166,8 @@ working_papers:
       an OLG model of marriage, cohabitation, wealth accumulation, and educational investments
       where college is costly and completion is risky, we find that high college costs reduce
       incentives to marry among couples without a college degree. These differences in union
-      choice by education heighten differences in children's educational attainment and
-      reduce intergenerational mobility.
+      choice by education heighten differences in children's educational attainment and reduce
+      intergenerational mobility.
 
   - title: "When Trade Drives Markup Divergence: An Application to Auto Markets"
     coauthors:
@@ -212,9 +191,9 @@ working_papers:
       domestic markets, factors that can be assessed with readily available trade data. Using
       data from auto firms producing in the UK, we show production-based markups increased
       between 1998 and 2018 whereas demand-based markups decreased. These trends can be
-      reconciled by an increase in the markup that UK-based producers gained on their
-      exports, which we corroborate using administrative trade data. We find that increases
-      in production-based markups have been driven by exports, particularly to China where
+      reconciled by an increase in the markup that UK-based producers gained on their exports,
+      which we corroborate using administrative trade data. We find that increases in
+      production-based markups have been driven by exports, particularly to China where
       foreign brands command high markups.
 
   - title: "Household Taxation, Nonlinear Occupations and Gender Gaps"
@@ -224,7 +203,6 @@ working_papers:
     links:
       - label: Paper
         url: https://drive.google.com/file/d/1fo3lje2xhl3wFRaobru0aiwebY3Ef64P/view?usp=share_link
-    # CHECK: one sentence (on the labor-supply channel) is missing - please paste the exact abstract
     abstract: >-
       An enduring source of gender inequality is that some high-paying ("nonlinear")
       occupations penalize balancing work and household time commitments, as emphasized by
@@ -235,7 +213,10 @@ working_papers:
       earnings-hours nonlinearities and progressive taxation, calibrated to US data. We find
       that a balanced-budget switch to separately filed progressive taxes significantly
       reduces the gender gaps in hours and occupational choice, while the wage gap declines
-      more modestly. These improvements arise because the reform lowers marginal tax rates
-      for secondary earners and raises them for primary earners. By contrast, proportional
-      taxation yields much smaller reductions in gender gaps. Occupational switching
-      contributes little because those who do switch are negatively selected.
+      more modestly. These improvements arise because the reform lowers marginal tax rates for
+      secondary earners and raises them for primary earners. By contrast, proportional
+      taxation yields much smaller reductions in gender gaps. In both reforms, the standard
+      labor-supply channel accounts for roughly two-thirds of the overall taxable-income
+      response, while the convex earnings-hours relationship amplifies these effects and
+      explains most of the remainder. Occupational switching contributes little because those
+      who do switch are negatively selected.
