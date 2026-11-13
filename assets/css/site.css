@@ -58,7 +58,7 @@ a:hover { color: var(--accent-dark); }
 /* ---------- Content ---------- */
 .section { margin-bottom: 52px; }
 .section:last-child { margin-bottom: 0; }
-.section-title { margin: 0 0 24px; padding-bottom: 10px; border-bottom: 1px solid var(--line); font-size: 15px; font-weight: 600; line-height: 1.3; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); }
+.section-title { margin: 0 0 24px; padding-bottom: 10px; border-bottom: 1px solid var(--line); font-size: 14px; font-weight: 600; line-height: 1.3; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink); }
 .lead { font-family: var(--serif); font-size: 19px; line-height: 1.65; color: var(--ink-2); max-width: 680px; margin: 0 0 16px; }
 .section p { max-width: 720px; }
 
