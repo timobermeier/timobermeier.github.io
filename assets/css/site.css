@@ -54,6 +54,9 @@ a:hover { color: var(--accent-dark); }
 .label { margin: 0 0 10px; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
 .tags { display: flex; flex-wrap: wrap; gap: 8px; }
 .tags li { font-size: 14px; padding: 4px 10px; border-radius: 4px; background: var(--tint); color: var(--tint-ink); }
+.links ul { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 6px; font-size: 15px; }
+.links a { text-decoration: none; }
+.links a:hover { text-decoration: underline; }
 
 /* ---------- Content ---------- */
 .section { margin-bottom: 44px; }
@@ -90,7 +93,7 @@ a:hover { color: var(--accent-dark); }
   .sidebar { max-width: none; display: grid; grid-template-columns: 104px minmax(0, 1fr); gap: 16px 20px; align-items: center; }
   .portrait { width: 104px; }
   .name { font-size: 26px; }
-  .contact, .fields { grid-column: 1 / -1; }
+  .contact, .fields, .links { grid-column: 1 / -1; }
   .fields { display: none; }
   .paper-actions { gap: 4px 22px; line-height: 2; }
 }

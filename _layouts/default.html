@@ -43,6 +43,15 @@
           {% for f in site.author.fields %}<li>{{ f }}</li>{% endfor %}
         </ul>
       </div>
+
+      {% if site.author.links %}
+      <nav class="links" aria-label="Links">
+        <p class="label">Links</p>
+        <ul>
+          {% for l in site.author.links %}<li><a href="{{ l.url }}">{{ l.label }}</a></li>{% endfor %}
+        </ul>
+      </nav>
+      {% endif %}
     </aside>
 
     <main id="content" class="content">
